@@ -1,0 +1,215 @@
+@font-face {
+    src: url(PT_Sans-Web-Regular.ttf);
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	margin: auto;
+	position:relative;
+	color:black;
+}
+
+h3 {
+	color: #b3b3b3;
+    text-align: center;
+}
+
+body {
+	background: black;
+}
+
+pre {
+	white-space: pre-line;
+}
+
+button {
+	background: #8ff988;
+    border-style: none;
+    font-size: 22px;
+    font-size: 21px;
+    /* border-color: green; */
+    border-radius: 2px;
+    /* position: absolute; */
+    /* color: #656565; */
+    /* margin-bottom: 20px; */
+}
+
+.header {
+
+    height: 100px;
+    background: #1f1f1f;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+.leftcol {
+
+	float:left;
+	width:20%;
+	height:100%;
+	background-color:#000000;
+	overflow-y: scroll;
+}
+
+.rightcol {
+	float: right;
+    background: #444444;
+    padding-top: 5px;
+    /* padding-left: 5px; */
+    width: 80%;
+    height: 100%;
+    right: 0px;
+    color: white;
+    position: relative;
+}
+.pj {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #72da50;
+    border-radius: 3px;
+    bottom: 0px;
+    border: solid;
+    border-color: green;
+}
+
+
+.mailinfos {
+
+	width:100%;
+	height: auto;
+	background-color:#000000;
+    padding-bottom: 3px;
+    padding-top: 3px;
+	padding-left: 6px;
+
+}
+
+.mailinfos_sub {
+
+    width:100%;
+    height: auto;
+    background-color:#000000;
+    /*color: #4aa4f3;*/
+    margin-bottom: 1px;
+    padding-left: 6px;
+
+}
+
+
+.mailcontent {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 3px;
+    background-color: #252525;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: gainsboro;
+}
+
+.item-list {
+    height: 50px;
+    /* border-radius: 5px; */
+       background: #000000;
+    padding-left: 5px;
+    /* border-bottom: red; */
+    border-bottom: 1px solid #4bf560;
+    padding-top: 5px;
+    color: #ffffff;
+    margin-right: 5px;
+    margin-bottom: 1px;
+        overflow: hidden;
+}
+
+.item-list:hover {
+	 background: #53b92d;
+	 position: relative;
+     right: -5px;
+     text-overflow: ellipsis;
+     transition: all 0.1s ease-in-out;
+
+}
+
+.item-list-name{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.item-list-subject{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.item-list-size{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.logo {
+	float: left;
+    color: #72da50;
+    font-size: 86px;
+    padding-left: 10px;
+    margin-right: 18px;
+}
+
+.file_selector {
+
+}
+
+.a_attachment {
+    color: white;
+    background: green;
+    font-style: none;
+    border-radius: 13px;
+    text-decoration: none;
+    /* width: 81%; */
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+}
+.attachment_sep {
+	    border-style: groove;
+    /* color: red; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 79%;
+    border-color: white;
+}
+
+#filename_chose {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #555555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #56d23f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #67E344;
+}
